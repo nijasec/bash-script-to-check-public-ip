@@ -7,3 +7,8 @@ Reminder
 ---------
 enable less secure apps in gmail settings to receive email.
 Also wsmtp tool is used which is availble in https://github.com/nijasec/program-to-send-email-when-public-ip-is-changed
+
+Dependencies
+----------------
+Curl
+wsmpt ( https://github.com/nijasec/program-to-send-email-when-public-ip-is-changed)
