@@ -1,0 +1,10 @@
+
+[Unit]
+Description=IpWatcher service
+After=network.target
+
+[Service]
+ExecStart=/home/ubuntu/pgsm/ipwatcher.sh
+
+[Install]
+WantedBy=multi-user.target
